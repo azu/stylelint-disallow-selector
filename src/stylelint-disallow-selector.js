@@ -14,7 +14,6 @@ module.exports = stylelint.createPlugin(ruleName, (options) => (cssRoot, result)
         const selectors = rule.selectors;
         selectors.filter(selector => {
             const chunks = selector.split(/\s+/g);
-            console.log(chunks);
             return chunks.some(chunk => {
                 return disallowValues.indexOf(chunk) !== -1;
             });
