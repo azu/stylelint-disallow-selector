@@ -1,0 +1,46 @@
+{
+  "directories": {
+    "test": "test"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "name": "stylelint-disallow-selector",
+  "version": "1.0.0",
+  "main": "lib/stylelint-disallow-selector.js",
+  "scripts": {
+    "test": "node test/stylelint-disallow-selector-test.js",
+    "build": "NODE_ENV=production babel src --out-dir lib --source-maps",
+    "watch": "babel src --out-dir lib --watch --source-maps",
+    "prepublish": "npm run --if-present build"
+  },
+  "keywords": [
+    "stylelint",
+    "plugin"
+  ],
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/stylelint-disallow-selector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/azu/stylelint-disallow-selector/issues"
+  },
+  "homepage": "https://github.com/azu/stylelint-disallow-selector",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-jsdoc-to-assert": "^4.0.0",
+    "babel-preset-power-assert": "^1.0.0",
+    "babel-register": "^6.14.0",
+    "power-assert": "^1.4.1",
+    "stylelint-test-rule-tape": "^0.2.0"
+  },
+  "dependencies": {
+    "stylelint": "^7.3.1"
+  }
+}
