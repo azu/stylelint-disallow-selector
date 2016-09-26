@@ -1,4 +1,4 @@
-# stylelint-disallow-selector
+# stylelint-disallow-selector [![Build Status](https://travis-ci.org/azu/stylelint-disallow-selector.svg?branch=master)](https://travis-ci.org/azu/stylelint-disallow-selector)
 
 stylelint rule disallow specific selector
 
