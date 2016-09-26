@@ -17,9 +17,7 @@ Install with [npm](https://www.npmjs.com/):
     "stylelint-disallow-selector"
   ],
   "rules": {
-   "azu/disallow-selector": [ "always", {
-      "disallow": [".dis-selector"]
-    } ],
+   "azu/disallow-selector": [".dis-selector"]
   }
 }
 ```

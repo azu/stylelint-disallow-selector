@@ -9,7 +9,7 @@ export const messages = stylelint.utils.ruleMessages(ruleName, {
 });
 
 module.exports = stylelint.createPlugin(ruleName, (options) => (cssRoot, result) => {
-    const disallowValues = options.disallow || [];
+    const disallowValues = options || [];
     cssRoot.walkRules(function(rule) {
         const selectors = rule.selectors;
         selectors.filter(selector => {
