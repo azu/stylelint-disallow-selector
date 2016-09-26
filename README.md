@@ -22,6 +22,9 @@ Install with [npm](https://www.npmjs.com/):
 }
 ```
 
+NG `.dis-selector{}`
+OK: `.not-dis-selector{}`
+
 ## Changelog
 
 See [Releases page](https://github.com/azu/stylelint-disallow-selector/releases).
