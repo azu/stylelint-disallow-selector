@@ -10,7 +10,7 @@
     "src/"
   ],
   "name": "stylelint-disallow-selector",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "lib/stylelint-disallow-selector.js",
   "scripts": {
     "test": "node test/stylelint-disallow-selector-test.js",
