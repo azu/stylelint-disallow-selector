@@ -5,11 +5,9 @@ var fn = require('../src/stylelint-disallow-selector');
 test(fn.rule, {
     ruleName: fn.ruleName,
     skipBasicChecks: true,
-    config: {
-        "disallow": [
-            "use"
-        ]
-    },
+    config: [
+        "use"
+    ],
     accept: [
         {
             code: '.c{}'
