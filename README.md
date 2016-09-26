@@ -1,6 +1,6 @@
 # stylelint-disallow-selector
 
-
+stylelint rule disallow specific selector
 
 ## Install
 
@@ -10,7 +10,19 @@ Install with [npm](https://www.npmjs.com/):
 
 ## Usage
 
-- [ ] Write usage instructions
+```
+// .stylelintrc
+{
+  "plugins": [
+    "stylelint-disallow-selector"
+  ],
+  "rules": {
+   "azu/disallow-selector": [ "always", {
+      "disallow": [".dis-selector"]
+    } ],
+  }
+}
+```
 
 ## Changelog
 

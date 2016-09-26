@@ -22,7 +22,7 @@
     "stylelint",
     "plugin"
   ],
-  "description": "",
+  "description": "stylelint rule disallow specific selector",
   "repository": {
     "type": "git",
     "url": "https://github.com/azu/stylelint-disallow-selector.git"
